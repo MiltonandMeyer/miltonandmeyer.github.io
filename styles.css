@@ -1,0 +1,89 @@
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+Merriweather+Sans:300,300i,400,400i,700,700i,800,800i|Merriweather:300,300i,400,400i,700,700i,900,900i
+
+*/
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 3em;
+}
+h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300
+  font-size: 2em;
+}
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+p, li {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
+body {
+  /*https://images.pexels.com/photos/261658/pexels-photo-261658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260*/
+  background-image: url(agreement_blur_greyopaque.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0 auto;
+
+  /*justify-content: center;
+  align-items: center;*/
+
+}
+
+.content {
+  margin-top: 100px;
+  padding: 15px;
+  margin: 50px auto;
+  flex: 1 0 auto;
+  text-align: center;
+
+}
+
+header {
+  /*display: flex;
+  justify-content: center;*/
+}
+
+.construction {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.construction h2 {
+    font-weight: 900;
+    font-size: 2.5em
+}
+
+.description {
+  flex: 1;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.scales {
+
+}
+
+footer {
+  flex:none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p, li {
+    list-style: none;
+    font-size: 1em;
+}
